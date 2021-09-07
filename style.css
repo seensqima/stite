@@ -5,6 +5,22 @@ body{
 button{
     all: unset;
     padding: 8px 15px;
-    background-color: whitesmoke;
-    border-radius: 4px;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 300ms ease;
+}
+
+button:hover{
+    background: #f5f5f57e;
+    color: white;
+}
+button:focus{
+    background: #f5f5f57e;
+    color: white;
+}
+button:active{
+    background: #ffffff33;
+    color: whitesmoke;
 }
