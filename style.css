@@ -1,3 +1,9 @@
 body{
-    background: tomato;
+    background: lightcoral;
+    font-family: Segoe UI;
+}
+button{
+    all: unset;
+    padding: 10px 15px;
+    background-color: whitesmoke;
 }
